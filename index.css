@@ -5,15 +5,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  font-family: "Inter", Arial, sans-serif;
   background: #f6f7fb;
   color: #1f2937;
+    font-family: "Lato", sans-serif;
+
 }
 
 .navbar {
@@ -25,8 +26,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      font-family: "Lato", sans-serif;
+font-family: "Lato", sans-serif;
 
 }
 
@@ -54,6 +54,12 @@ body {
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
+      transition:  all ease-in-out 0.5s;
+
+}
+
+.nav-button:hover {
+    scale: 1.07;
 }
 
 .hero {
@@ -86,6 +92,12 @@ body {
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
+    transition:  all ease-in-out 0.5s;
+
+}
+
+.primary-btn:hover {
+    scale: 1.05;
 }
 
 .hero-card {
@@ -94,7 +106,6 @@ body {
   padding: 2rem;
   display: grid;
   gap: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .stat {
